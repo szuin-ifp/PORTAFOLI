@@ -1,0 +1,203 @@
+body{
+    font-family: Helvetica;
+}
+
+header{
+    height: 166px;
+}
+
+nav {
+    height: 180px;
+    background-color: ;
+}
+    .cercle{
+        background-color: purple;
+        width: 80px;
+        height: 80px;
+        margin: 28px;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 10px;
+        border: solid 5px white;
+        box-shadow: 0px 0px 15px orangered;
+
+        background-image: url(../img/kylie.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+        opacity: 80%;
+    }
+
+    .cercle:after {
+        content: "+";
+        display: block;
+        background-color: cyan;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        border: solid 5px white;
+        position: relative;
+        top: 55px;
+        left: 60px;
+    }
+
+    .cercle:hover{
+        opacity: 100%;
+    }
+
+article {
+    height: 2053px;
+}
+
+.contenidor {
+    width: 1716px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+    overflow: hidden;
+    align: center;
+}
+
+.img{
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;
+    background-color: ;
+    overflow: hidden;
+}
+
+/*_________________________article___________________*/
+
+.fotoautor{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/kylie.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: solid 3px white;
+    box-shadow: 0px 0px 10px fuchsia;
+    float: left;
+    margin: 10px;
+}
+
+.autor{
+
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.moment{
+    width: 268px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.esquerra{
+    width: 50%;
+    margin: 0;
+    float: left;
+    
+}
+
+.dreta {
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+.comentari{
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    width: 180px;
+    float: left;
+
+}
+
+.like{
+    height: 40px;
+    width: 40px;
+    float: left;
+
+}
+
+.mes{
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+/*________________________header______________________*/
+
+.home{
+    width: 208px;
+    height: 39px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/ifpagram_09\ Pequeño.jpeg);
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+
+.menu{
+    width: 208px;
+    height: 39px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+    background-color: blue;
+}
+
+.menu li{
+    width: 32px;
+    height: 32px;
+    background: yellow;
+    margin: 3px 8px;
+    display: inline-block;
+    background-image: url(../img/ifpagram_11\ Pequeño.jpeg);
+}
+
+.menu .inici{
+    background-position: -5px -2px;
+}
+
+.menu .cerca{
+    background-position: -90px -2px;
+}
+
+.menu .reels{
+    background-position: -173px -2px;
+}
+
+.menu .favorits{
+    background-position: -257px -2px;
+}
+
+.menu .perfil{
+    width: 208px;
+    height: 39px;
+    margin: 50px 0 0 0;
+    background-color: red;
+    display: inline-block;
+}
